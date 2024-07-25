@@ -1,0 +1,82 @@
+@keyframes typing{
+
+    0%{ content: "|"; }
+
+    1.2% { content: "D|"; }
+    2.4% { content: "De|"; }
+    3.6% { content: "Des|"; }
+    4.8% { content: "Desi|"; }
+    6% { content: "Desi|"; }
+    7.2% { content: "Desig|"; }
+    8.4% { content: "Design|"; }
+    9.6% { content: "Designe|"; }
+    10.8% { content: "Designer|"; }
+    12%   { content: "Designe|"; }
+    13.2% { content: "Design|"; }
+    14.4% { content: "Desig|"; }
+    15.6% { content: "Desi|"; }
+    16.8% { content: "Des|"; }
+    18%   { content: "De|"; }
+    19.2% { content: "D|"; }
+    20.4% { content: "De|"; }
+    21.6% { content: "Dev|"; }
+    22.8% { content: "Deve|"; }
+    24%   { content: "Devel|"; }
+    25.2% { content: "Develo|"; }
+    26.4% { content: "Develop|"; }
+    27.6% { content: "Develope|"; }
+    28.8% { content: "Developer|"; }
+    30%   { content: "Develope|"; }
+    31.2% { content: "Develop|"; }
+    32.4% { content: "Develo|"; }
+    33.6% { content: "Devel|"; }
+    34.8% { content: "Deve|"; }
+    36%   { content: "Dev|"; }
+    37.2% { content: "De|"; }
+    38.4% { content: "D|"; }
+    39.6% { content: "F|"; }
+    40.8% { content: "Fr|"; }
+    42%   { content: "Fre|"; }
+    43.2% { content: "Free|"; }
+    44.4% { content: "Freel|"; }
+    45.6% { content: "Freela|"; }
+    46.8% { content: "Freelan|"; }
+    48%   { content: "Freelanc|"; }
+    49.2% { content: "Freelance|"; }
+    50.4% { content: "Freelancer|"; }
+    51.6% { content: "Freelance|"; }
+    52.8% { content: "Freelanc|"; }
+    54%   { content: "Freelan|"; }
+    55.2% { content: "Freela|"; }
+    56.4% { content: "Freel|"; }
+    57.6% { content: "Free|"; }
+    58.8% { content: "Fre|"; }
+    60%   { content: "Fr|"; }
+    61.2% { content: "F|"; }
+    62.4% { content: "p|"; }
+    63.6% { content: "Ph|"; }
+    64.8% { content: "pho|"; }
+    66%   { content: "Phot|"; }
+    67.2% { content: "Photo|"; }
+    68.4% { content: "Photog|"; }
+    69.6% { content: "Photogr|"; }
+    71%   { content: "Photogra|"; }
+    72.2% { content: "Photograp|"; }
+    73.4% { content: "Photograph|"; }
+    74.6% { content: "Photographe|"; }
+    75.8% { content: "Photographer|"; }
+    77%   { content: "Photographe|"; }
+    78.2% { content: "Photograph|"; }
+    79.4% { content: "Photograp|"; }
+    80.6% { content: "Photogra|"; }
+    81.8% { content: "Photogr|"; }
+    83%   { content: "Photog|"; }
+    84.2% { content: "Photo|"; }
+    85.4% { content: "Phot|"; }
+    86.6% { content: "Pho|"; }
+    87.8% { content: "Ph|"; }
+    89%   { content: "P|"; }
+    
+    100%  { content: "";  }
+
+}

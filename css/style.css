@@ -1,0 +1,268 @@
+/* ********************************************************************************************************************************** */
+
+/* start of home section style */
+ div.home{
+    background-image:linear-gradient(to top ,rgba(0,0,0,0.5) , rgba(0,0,0,0.5) ), url(../image/hero-bg.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* animation property style setting */
+ div.home p.typing::after{
+    content: "";
+    animation: typing 10s infinite;
+}
+
+/* hover effect for navlink  take class active*/
+#navbar .navbar-brand{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+}
+#navbar a.nav-link{
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+}
+#navbar a.nav-link.active::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    background-color: #fff;
+    height: 3px;
+}
+/* remove border for dropbown */
+#navbar .dropdown-toggle::after{
+    border: none;
+}
+/* start of hover for link  */
+#navbar a.nav-link::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    background-color: #fff;
+    height: 3px;
+    transition: all .5s;
+}
+#navbar a.nav-link:hover::after{
+   width: 100%;
+}
+/* dropdown */
+#navbar .dropdown-menu{
+    border-radius: 0;
+}
+#navbar .dropdown-menu .dropdown-item:hover{
+    color: blue;
+    background-color: transparent;
+}
+/* end of home secton style */
+/* ********************************************************************************************************************************** */
+
+/* start of about section */
+.about > .container{
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+/* progress pbar style */
+.about .percent .skil-progress-1 .progress-bar{
+    width: 85%;
+}
+.about .percent .skil-progress-4 .progress-bar{
+    width: 90%;
+}
+.about .percent .progress{
+    --bs-progress-height:.50rem;
+}
+
+/* header element of detail section of about  */
+.about .about-detail .head-detail-about::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 25%;
+    bottom: 0;
+    left: 0;
+    /* height: 3px; */
+    /* background-color: blue; */
+    border-bottom: 3px solid blue; 
+}
+/* ********************************************************************************************************************************** */
+/* start of service section */
+.service .title-service  p::after{
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 5px;
+    background-color: blue;
+    left: 50%;
+    bottom: 0;
+    transform: translatex(-50%);
+}
+
+/* inner part -- card of service section  */
+.service .card-item-service{
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.service .card-item-service .icon-service i{
+    border: 10px solid #0078ff;
+    padding: 2rem;
+    border-radius: 50%;
+    transition: all .8s;
+}
+
+.service .card-item:hover .icon-service i{
+    border: 10px solid #cde1f8 ;
+    background-color: blue;
+    color: white;
+}
+/* ********************************************************************************************************************************** */
+/* start of testimonial section */
+.testimonial{
+    background-image: linear-gradient(to right , rgba(0,120,255,.5) , rgba(0,120,255,.5)) , url(../image/counters-bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.testimonial .test-icon i{
+    border: 10px solid #cde1f8;
+}
+/* end of testimonial section */
+/* ********************************************************************************************************************************** */
+/* start of portfolio section */
+.portfolio .title-portfolio  p::after{
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 5px;
+    background-color: blue;
+    left: 50%;
+    bottom: 0;
+    transform: translatex(-50%);
+}
+.portfolio .card-body svg ,span {
+    color:#0078ff;
+  }
+  .portfolio .portfolio-inner .card{
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+  .portfolio .card .card-img{
+    overflow: hidden;
+  }
+  .portfolio .card-img-top{
+    transition: all .8s;
+  }
+  .portfolio .card:hover .card-img-top{
+    transform: scale(1.4);
+  }
+/* end of portfolio section */
+/* ********************************************************************************************************************************** */
+/* start of blog section */
+
+.blog .title-blog  p::after{
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 5px;
+    background-color: blue;
+    left: 50%;
+    bottom: 0;
+    transform: translatex(-50%);
+}
+.blog .footer-card{
+    background-color: #f1f1f1;
+    border-top: 2px solid lightgray;
+    padding-top: 5px;
+}
+.blog .footer-card img{
+    width: 10%;
+}
+.blog .footer-card .footer-icon{
+    margin-bottom: 13px;
+}
+/* end of blog section */
+
+/* ********************************************************************************************************************************** */
+/* start of carousel */
+.carousel{
+    background-image: linear-gradient(to right , rgba(0,120,255,.5) , rgba(0,120,255,.5)) , url(../image/overlay-bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#carousel-section .carousel-inner .carousel-item img{
+    width: 25%;
+}
+.carousel .carousel-indicators{
+    position: static;
+}
+.carousel .carousel-indicators button{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+/* end of carousel */
+/* ********************************************************************************************************************************** */
+/* start of form section */
+.form-section{
+    background-image: linear-gradient(to right , rgba(0,120,255,.5) , rgba(0,120,255,.5)) , url(../image/overlay-bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.form-section .form-item .head-detail-form::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 25%;
+    bottom: 0;
+    left: 0;
+    /* height: 3px; */
+    /* background-color: blue; */
+    border-bottom: 3px solid blue; 
+}
+
+.form-section .form-details .form-icon i{
+    border: 3px solid #0078ff; 
+    padding: .7rem;
+    border-radius: 50%;
+    margin: 0 .5rem;
+    font-size: 1.25rem;
+}
+.form-icon i:hover{
+    background-color: #0078ff;
+    color: white;
+}
+/* end of form section */
+/* ********************************************************************************************************************************** */
+/* start of footer section */
+#footer{
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2) inset;
+    background-color: #0062d3;
+}
+
+.scrol-icon{
+    bottom: 10px;
+    right: 10px;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    background-color: #298eff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    color: white;
+}
+.scrol-icon a{
+    text-decoration: none;
+    color: #fff;
+}
